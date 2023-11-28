@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\REPOSITORIO-GIT\\.NET Core\\MoviesWebApp\\Solution\\Solution.DAL.Repository\\Solution.DAL.Repository.csproj": {}
+    "E:\\REPOSITORIO-GIT\\.NET Core\\MoviesWebApp\\MoviesWebApp\\Solution\\Solution.DAL.Repository\\Solution.DAL.Repository.csproj": {}
   },
   "projects": {
-    "E:\\REPOSITORIO-GIT\\.NET Core\\MoviesWebApp\\Solution\\Solution.DAL.Repository\\Solution.DAL.Repository.csproj": {
+    "E:\\REPOSITORIO-GIT\\.NET Core\\MoviesWebApp\\MoviesWebApp\\Solution\\Solution.DAL.Repository\\Solution.DAL.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\REPOSITORIO-GIT\\.NET Core\\MoviesWebApp\\Solution\\Solution.DAL.Repository\\Solution.DAL.Repository.csproj",
+        "projectUniqueName": "E:\\REPOSITORIO-GIT\\.NET Core\\MoviesWebApp\\MoviesWebApp\\Solution\\Solution.DAL.Repository\\Solution.DAL.Repository.csproj",
         "projectName": "Solution.DAL.Repository",
-        "projectPath": "E:\\REPOSITORIO-GIT\\.NET Core\\MoviesWebApp\\Solution\\Solution.DAL.Repository\\Solution.DAL.Repository.csproj",
+        "projectPath": "E:\\REPOSITORIO-GIT\\.NET Core\\MoviesWebApp\\MoviesWebApp\\Solution\\Solution.DAL.Repository\\Solution.DAL.Repository.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "E:\\REPOSITORIO-GIT\\.NET Core\\MoviesWebApp\\Solution\\Solution.DAL.Repository\\obj\\",
+        "outputPath": "E:\\REPOSITORIO-GIT\\.NET Core\\MoviesWebApp\\MoviesWebApp\\Solution\\Solution.DAL.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "F:\\VISUAL STUDIO\\Components-Tools-SDK\\NuGetPackages"
@@ -43,6 +43,22 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.14, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
